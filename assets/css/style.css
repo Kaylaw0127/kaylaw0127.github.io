@@ -14,3 +14,24 @@ h2 {
     font-size: 40px;
     text-align: center;
 }
+/* navigation bar */
+.navbar {
+    float: right;
+    padding: 0;
+    list-style-type: none;
+    margin-right: 200px;
+    display: inline-block;
+}
+.nav {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+}
+.navbarText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: large;
+    text-decoration: none;
+}
