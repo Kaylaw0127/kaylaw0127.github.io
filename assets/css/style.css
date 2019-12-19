@@ -11,7 +11,6 @@
 h1 {
     float: left;
     padding: 25px;
-    margin-left: 200px;
     font-size: 30px;
     text-align: left;
     font-weight: bold;
@@ -49,41 +48,59 @@ h1 {
 
 .contact {
     padding: 15px;
-    margin-right: 200px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #777777;
 } 
 
-/*main body*/
+/*about section*/
 body {
     color: #777777;
-    background-color: #ffffff;
+    /* background: url("assets/images/contemporary_china.png");
+    background-repeat: repeat-x; */
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 960px;
 } 
 
 h2 {
+    padding: 20px;
     font-size: 30px;
     text-align: left;
     font-weight: bold;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid;
+    border-color: #cccccc;
 }
 
 p {
+    margin-top: 20px;
     position: relative; 
     display: inline;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 .picture {
+    margin-top: 20px;
     float: left;
+    margin-right: 15px;
 }
 
-.clearfix:after { 
-    content: "."; 
-    visibility: hidden; 
-    display: block; 
-    height: 0; 
-    clear: both;
+/*contact section*/
+.name {
+    width: 400px;
+}
+.emailAddress {
+    width: 400px;
+}
+.textArea {
+    width: 400px;
+    height: 200px;
+}
+.submitBtn {
+    background-color: #4aaaa5;
 }
 
 /*footer*/
